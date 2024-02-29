@@ -18,7 +18,7 @@ module.exports = {
       veryDarkBlue: "hsl(224, 21%, 14%)"
     },
     fontFamily: {
-      sans: ["var(--ff-sans)", ...defaultTheme.fontFamily.sans]
+      sans: ["Plus Jakarta Sans", ...defaultTheme.fontFamily.sans]
     },
     extend: {},
   },
