@@ -15,10 +15,18 @@ module.exports = {
       },
       grayishBlue: "hsl(219, 14%, 63%)",
       darkGrayishBlue: "hsl(219, 12%, 42%)",
-      veryDarkBlue: "hsl(224, 21%, 14%)"
+      veryDarkBlue: "hsl(224, 21%, 14%)",
+      black: "#000000"
     },
     fontFamily: {
       sans: ["Plus Jakarta Sans", ...defaultTheme.fontFamily.sans]
+    },
+    container: {
+      screens: {
+        lg: "64rem"
+      },
+      center: true,
+      padding: "1rem"
     },
     extend: {},
   },

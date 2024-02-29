@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta
-      charset="UTF-8"
-      <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       rel="icon"
@@ -19,140 +14,313 @@
 
     <title>Frontend Mentor | Notifications page</title>
   </head>
-  <body>
-    <main>
-      <h1>Notifications <span>3</span></h1>
+  <body class="py-6 sm:py-10 md:py-14 lg:py-24 font-sans">
+    <main class="container">
+      <div class="flex justify-between items-center mb-6">
+        <h1 class="font-extrabold">
+          <span class="text-xl"> Notifications </span>
+          <span
+            class="ml-2 rounded-lg bg-blue text-white inline-block px-4 text-md"
+            >3</span
+          >
+        </h1>
 
-      <button>Mark all as read</button>
+        <button
+          class="font-semibold text-darkGrayishBlue text-md hover:text-blue"
+        >
+          Mark all as read
+        </button>
+      </div>
 
-      <ul>
-        <li>
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- responsiveness -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+      <!-- ############################################################################### -->
+
+      <ul class="space-y-4">
+        <li class="flex gap-x-4 bg-veryLightGrayishBlue rounded-lg p-4">
           <div>
             <img
               src="./assets/images/avatar-mark-webber.webp"
               alt="Mark Webber"
+              class="max-w-10"
             />
           </div>
           <div>
-            <p>
-              <strong> Mark Webber </strong>
-              reacted to your recent post My first tournament today!
+            <p
+              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+            >
+              <a
+                href="https://www.example.com"
+                class="text-black font-extrabold hover:text-blue"
+              >
+                Mark Webber
+              </a>
+              reacted to your recent post
+              <a
+                href="https://www.example.com"
+                class="font-bold hover:text-blue"
+                >My first tournament today!</a
+              >
+              <span
+                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5"
+              >
+                <span class="sr-only">Unread</span>
+              </span>
             </p>
-            <p>
-              <time datetime="2024-01-29"> 1m ago </time>
+            <p class="leading-5">
+              <time datetime="2024-01-29" class="text-grayishBlue font-medium">
+                1m ago
+              </time>
             </p>
           </div>
         </li>
-        <li>
+        <li class="flex gap-x-4 bg-veryLightGrayishBlue r ounded-lg p-4">
           <div>
             <img
               src="./assets/images/avatar-angela-gray.webp"
               alt="angela gray"
+              class="max-w-10"
             />
           </div>
           <div>
-            <p><strong>Angela Gray</strong> followed you</p>
-            <p>
-              <time datetime="2024-02-29T14:55"> 5m ago </time>
+            <p
+              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+            >
+              <a
+                href="https://www.example.com"
+                class="font-extrabold text-black hover:text-blue"
+                >Angela Gray</a
+              >
+              followed you
+              <span
+                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5"
+              >
+                <span class="sr-only">Unread</span>
+              </span>
+            </p>
+            <p class="leading-5">
+              <time
+                datetime="2024-02-29T14:55"
+                class="text-grayishBlue font-medium"
+              >
+                5m ago
+              </time>
             </p>
           </div>
         </li>
-        <li>
+        <li class="flex gap-x-4 bg-veryLightGrayishBlue rounded-lg p-4">
           <div>
             <img
               src="assets/images/avatar-jacob-thompson.webp"
               alt="Jacob Thompson"
+              class="max-w-10"
             />
           </div>
           <div>
-            <p>
-              <strong> Jacob Thompson </strong>
-              has joined your group Chess Club
+            <p
+              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+            >
+              <a
+                href="https://www.example.com"
+                class="font-extrabold text-black hover:text-blue"
+              >
+                Jacob Thompson
+              </a>
+              has joined your group
+              <a
+                href="https://www.chess.com"
+                class="font-extrabold text-blue hover:underline"
+                >Chess Club</a
+              >
+              <span
+                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5"
+              >
+                <span class="sr-only">Unread</span>
+              </span>
             </p>
-            <p>
-              <time datetime="2024-02-28"> 1 day ago </time>
+            <p class="leading-5">
+              <time datetime="2024-02-28" class="text-grayishBlue font-medium">
+                1 day ago
+              </time>
             </p>
           </div>
         </li>
 
-        <li>
+        <li class="flex gap-x-4 p-4">
           <div>
             <img
               src="assets/images/avatar-rizky-hasanuddin.webp"
               alt="Rizky Hasanuddin"
+              class="max-w-10"
             />
           </div>
           <div>
-            <p><strong>Rizky Hasanuddin</strong> sent you a private message</p>
-            <p>
-              <time datetime="2024-02-23"> 5 days ago </time>
+            <p
+              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+            >
+              <a
+                href="https://www.example.com"
+                class="font-extrabold text-black hover:text-blue"
+                >Rizky Hasanuddin</a
+              >
+              sent you a private message
+            </p>
+            <p class="leading-5">
+              <time datetime="2024-02-23" class="text-grayishBlue font-medium">
+                5 days ago
+              </time>
             </p>
             <p>
-              Hello, thanks for setting up the Chess Club. I've been a member
-              for a few weeks now and I'm already having lots of fun and
-              improving my game.
+              <a
+                href="https://www.example.com"
+                class="block border border-lightGrayishBlue-2 rounded-md p-4 mt-4 leading-5 font-bold text-grayishBlue tracking-tighter hover:bg-lightGrayishBlue-2"
+              >
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </a>
             </p>
           </div>
         </li>
 
-        <li>
+        <li class="flex justify-between gap-x-4 px-4">
+          <div class="flex gap-x-4">
+            <div>
+              <img
+                src="assets/images/avatar-kimberly-smith.webp"
+                alt="Kimberly Smith"
+                class="max-w-10"
+              />
+            </div>
+            <div>
+              <p
+                class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+              >
+                <a
+                  href="https://www.example.com"
+                  class="font-extrabold text-black hover:text-blue"
+                >
+                  Kimberly Smith
+                </a>
+                commented on your picture
+              </p>
+              <p class="leading-5">
+                <time
+                  datetime="2024-02-21"
+                  class="text-grayishBlue font-medium"
+                >
+                  1 week ago
+                </time>
+              </p>
+            </div>
+          </div>
           <div>
             <img
-              src="assets/images/avatar-kimberly-smith.webp"
-              alt="Kimberly Smith"
+              src="assets/images/image-chess.webp"
+              alt="Woman playing chess"
+              class="max-w-10"
+            />
+          </div>
+        </li>
+
+        <li class="flex gap-x-4 p-4">
+          <div>
+            <img
+              src="assets/images/avatar-nathan-peterson.webp"
+              alt="Nathan Peterson"
+              class="max-w-10"
             />
           </div>
           <div>
-            <p>
-              <strong> Kimberly Smith </strong>
-              commented on your picture
+            <p
+              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+            >
+              <a
+                href="https://www.example.com"
+                class="font-extrabold text-black hover:text-blue"
+              >
+                Nathan Peterson
+              </a>
+              reacted to your recent post
+              <a
+                href="https://www.example.com"
+                class="font-bold hover:text-blue"
+                >5 end-game strategies to increase your win rate
+              </a>
             </p>
-            <p>
-              <time datetime="2024-02-21"> 1 week ago </time>
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <div>
-            <img src="assets/images/avatar-nathan-peterson.webp" alt="" />
-          </div>
-          <div>
-            <p>
-              <strong> Nathan Peterson </strong>
-              reacted to your recent post 5 end-game strategies to increase your
-              win rate
-            </p>
-            <p>
-              <time datetime="2024-02-14"> 2 weeks ago </time>
+            <p class="leading-5">
+              <time datetime="2024-02-14" class="text-grayishBlue font-medium">
+                2 weeks ago
+              </time>
             </p>
           </div>
         </li>
 
-        <li>
+        <li class="flex gap-x-4 p-4">
           <div>
-            <img src="assets/images/avatar-anna-kim.webp" />
+            <img
+              src="assets/images/avatar-anna-kim.webp"
+              alt="Anna Kim"
+              class="max-w-10"
+            />
           </div>
           <div>
-            <p>
-              <strong> Anna Kim </strong>
-              left the group Chess Club
+            <p
+              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+            >
+              <a
+                href="https://www.example.com"
+                class="font-extrabold text-black hover:text-blue"
+              >
+                Anna Kim
+              </a>
+              left the group
+              <a
+                href="https://www.chess.com"
+                class="font-extrabold text-blue hover:underline"
+                >Chess Club</a
+              >
             </p>
-            <p>
-              <time datetime="2024-02-14"> 2 weeks ago </time>
+            <p class="leading-5">
+              <time datetime="2024-02-14" class="text-grayishBlue font-medium">
+                2 weeks ago
+              </time>
             </p>
           </div>
         </li>
       </ul>
     </main>
 
-    <footer class="attribution">
-      <p>
+    <footer class="attribution text-center px-6 mt-8">
+      <p class="leading-5">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="underline text-darkGrayishBlue hover:no-underline"
           >Frontend Mentor</a
         >. Coded by
-        <a href="https://rafaeldevvv.github.io/portfolio" target="_blank"
+        <a
+          href="https://rafaeldevvv.github.io/portfolio"
+          target="_blank"
+          class="underline text-darkGrayishBlue hover:no-underline"
           >Rafael Maia</a
         >.
       </p>
