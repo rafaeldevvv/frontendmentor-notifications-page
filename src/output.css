@@ -552,9 +552,9 @@ video {
   padding-left: 1rem;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 42rem) {
   .container {
-    max-width: 48rem;
+    max-width: 42rem;
   }
 }
 
@@ -678,11 +678,6 @@ video {
 .bg-red {
   --tw-bg-opacity: 1;
   background-color: hsl(1 90% 64% / var(--tw-bg-opacity));
-}
-
-.bg-veryLightGrayishBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(210 60% 98% / var(--tw-bg-opacity));
 }
 
 .bg-white {

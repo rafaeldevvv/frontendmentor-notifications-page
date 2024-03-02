@@ -23,7 +23,7 @@ module.exports = {
     },
     container: {
       screens: {
-        lg: "48rem"
+        lg: "42rem"
       },
       center: true,
       padding: "1rem"
