@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,20 +17,20 @@
     <title>Frontend Mentor | Notifications page</title>
   </head>
   <body
-    class="py-6 sm:py-10 md:py-14 lg:py-24 sm:px-6 font-sans sm:bg-veryLightGrayishBlue"
+    class="py-6 font-sans sm:bg-veryLightGrayishBlue sm:px-6 sm:py-10 md:py-14 lg:py-24"
   >
-    <main class="container sm:rounded-xl bg-white sm:px-8 sm:py-10">
-      <div class="flex justify-between items-center mb-6">
+    <main class="container bg-white sm:rounded-xl sm:px-8 sm:py-10">
+      <div class="mb-6 flex items-center justify-between">
         <h1 class="font-extrabold">
           <span class="text-xl sm:text-2xl"> Notifications </span>
           <span
-            class="ml-2 rounded-lg bg-blue text-white inline-block px-4 text-md js-unread-notif-count"
+            class="text-md js-unread-notif-count ml-2 inline-block rounded-lg bg-blue px-4 text-white"
             >3</span
           >
         </h1>
 
         <button
-          class="font-semibold text-darkGrayishBlue text-md hover:text-blue js-mark-as-read-btn"
+          class="text-md js-mark-as-read-btn font-semibold text-darkGrayishBlue hover:text-blue"
         >
           Mark all as read
         </button>
@@ -38,7 +38,7 @@
 
       <ul class="space-y-4">
         <li
-          class="flex gap-x-4 rounded-lg p-4 notification js-notification"
+          class="notification js-notification flex gap-x-4 rounded-lg p-4"
           data-unread
         >
           <div>
@@ -50,11 +50,11 @@
           </div>
           <div>
             <p
-              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+              class="font-medium leading-5 tracking-tighter text-darkGrayishBlue"
             >
               <a
                 href="https://www.example.com"
-                class="text-black font-extrabold hover:text-blue"
+                class="font-extrabold text-black hover:text-blue"
               >
                 Mark Webber
               </a>
@@ -65,20 +65,20 @@
                 >My first tournament today!</a
               >
               <span
-                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5 js-unread-hint"
+                class="js-unread-hint relative bottom-0.5 ml-1 inline-block aspect-square w-2 rounded-full bg-red"
               >
                 <span class="sr-only">Unread</span>
               </span>
             </p>
             <p class="leading-5">
-              <time datetime="2024-01-29" class="text-grayishBlue font-medium">
+              <time datetime="2024-01-29" class="font-medium text-grayishBlue">
                 1m ago
               </time>
             </p>
           </div>
         </li>
         <li
-          class="flex gap-x-4 rounded-lg p-4 notification js-notification"
+          class="notification js-notification flex gap-x-4 rounded-lg p-4"
           data-unread
         >
           <div>
@@ -90,7 +90,7 @@
           </div>
           <div>
             <p
-              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+              class="font-medium leading-5 tracking-tighter text-darkGrayishBlue"
             >
               <a
                 href="https://www.example.com"
@@ -99,7 +99,7 @@
               >
               followed you
               <span
-                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5 js-unread-hint"
+                class="js-unread-hint relative bottom-0.5 ml-1 inline-block aspect-square w-2 rounded-full bg-red"
               >
                 <span class="sr-only">Unread</span>
               </span>
@@ -107,7 +107,7 @@
             <p class="leading-5">
               <time
                 datetime="2024-02-29T14:55"
-                class="text-grayishBlue font-medium"
+                class="font-medium text-grayishBlue"
               >
                 5m ago
               </time>
@@ -115,7 +115,7 @@
           </div>
         </li>
         <li
-          class="flex gap-x-4 rounded-lg p-4 notification js-notification"
+          class="notification js-notification flex gap-x-4 rounded-lg p-4"
           data-unread
         >
           <div>
@@ -127,7 +127,7 @@
           </div>
           <div>
             <p
-              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+              class="font-medium leading-5 tracking-tighter text-darkGrayishBlue"
             >
               <a
                 href="https://www.example.com"
@@ -142,13 +142,13 @@
                 >Chess Club</a
               >
               <span
-                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5 js-unread-hint"
+                class="js-unread-hint relative bottom-0.5 ml-1 inline-block aspect-square w-2 rounded-full bg-red"
               >
                 <span class="sr-only">Unread</span>
               </span>
             </p>
             <p class="leading-5">
-              <time datetime="2024-02-28" class="text-grayishBlue font-medium">
+              <time datetime="2024-02-28" class="font-medium text-grayishBlue">
                 1 day ago
               </time>
             </p>
@@ -165,7 +165,7 @@
           </div>
           <div>
             <p
-              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+              class="font-medium leading-5 tracking-tighter text-darkGrayishBlue"
             >
               <a
                 href="https://www.example.com"
@@ -175,14 +175,14 @@
               sent you a private message
             </p>
             <p class="leading-5">
-              <time datetime="2024-02-23" class="text-grayishBlue font-medium">
+              <time datetime="2024-02-23" class="font-medium text-grayishBlue">
                 5 days ago
               </time>
             </p>
             <p>
               <a
                 href="https://www.example.com"
-                class="block border border-lightGrayishBlue-2 rounded-md p-4 mt-4 leading-5 font-bold text-grayishBlue tracking-tighter hover:bg-lightGrayishBlue-2"
+                class="mt-4 block rounded-md border border-lightGrayishBlue-2 p-4 font-bold leading-5 tracking-tighter text-grayishBlue hover:bg-lightGrayishBlue-2"
               >
                 Hello, thanks for setting up the Chess Club. I've been a member
                 for a few weeks now and I'm already having lots of fun and
@@ -203,7 +203,7 @@
             </div>
             <div>
               <p
-                class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+                class="font-medium leading-5 tracking-tighter text-darkGrayishBlue"
               >
                 <a
                   href="https://www.example.com"
@@ -216,7 +216,7 @@
               <p class="leading-5">
                 <time
                   datetime="2024-02-21"
-                  class="text-grayishBlue font-medium"
+                  class="font-medium text-grayishBlue"
                 >
                   1 week ago
                 </time>
@@ -225,7 +225,7 @@
           </div>
           <div>
             <a
-              class="hover:outline hover:outline-4 hover:outline-lightGrayishBlue-1 inline-block overflow-hidden rounded-md"
+              class="inline-block overflow-hidden rounded-md hover:outline hover:outline-4 hover:outline-lightGrayishBlue-1"
               href="https://www.example.com"
             >
               <img
@@ -247,7 +247,7 @@
           </div>
           <div>
             <p
-              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+              class="font-medium leading-5 tracking-tighter text-darkGrayishBlue"
             >
               <a
                 href="https://www.example.com"
@@ -263,7 +263,7 @@
               </a>
             </p>
             <p class="leading-5">
-              <time datetime="2024-02-14" class="text-grayishBlue font-medium">
+              <time datetime="2024-02-14" class="font-medium text-grayishBlue">
                 2 weeks ago
               </time>
             </p>
@@ -280,7 +280,7 @@
           </div>
           <div>
             <p
-              class="leading-5 font-medium text-darkGrayishBlue tracking-tighter"
+              class="font-medium leading-5 tracking-tighter text-darkGrayishBlue"
             >
               <a
                 href="https://www.example.com"
@@ -296,7 +296,7 @@
               >
             </p>
             <p class="leading-5">
-              <time datetime="2024-02-14" class="text-grayishBlue font-medium">
+              <time datetime="2024-02-14" class="font-medium text-grayishBlue">
                 2 weeks ago
               </time>
             </p>
@@ -305,19 +305,19 @@
       </ul>
     </main>
 
-    <footer class="attribution text-center px-6 mt-8">
+    <footer class="attribution mt-8 px-6 text-center">
       <p class="leading-5">
         Challenge by
         <a
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
-          class="underline text-darkGrayishBlue hover:no-underline"
+          class="text-darkGrayishBlue underline hover:no-underline"
           >Frontend Mentor</a
         >. Coded by
         <a
           href="https://rafaeldevvv.github.io/portfolio"
           target="_blank"
-          class="underline text-darkGrayishBlue hover:no-underline"
+          class="text-darkGrayishBlue underline hover:no-underline"
           >Rafael Maia</a
         >.
       </p>
