@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![A list of notifications](./assets/images/screenshot.png)
 
 ### Links
 
@@ -41,6 +41,12 @@ Users should be able to:
 - A little bit of javascript
 - A little bit of custom css
 - [tailwindcss](https://tailwindcss.com)
+
+## Useful resources
+
+- [Outline is not drawn on inline elements](https://github.com/dompdf/dompdf/issues/1925)
+- [Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+- [Frontend Mentor Notifications Page](https://www.frontendmentor.io/notifications) - I used it as a reference as the challenge and this page are very similar.
 
 ## Author
 
