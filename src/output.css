@@ -810,6 +810,23 @@ video {
   outline-color: hsl(211, 68%, 94%);
 }
 
+.disabled\:cursor-auto:disabled {
+  cursor: auto;
+}
+
+.disabled\:opacity-80:disabled {
+  opacity: 0.8;
+}
+
+.disabled\:opacity-60:disabled {
+  opacity: 0.6;
+}
+
+.disabled\:hover\:text-darkGrayishBlue:hover:disabled {
+  --tw-text-opacity: 1;
+  color: hsl(219 12% 42% / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:rounded-xl {
     border-radius: 0.75rem;

@@ -7,4 +7,5 @@ markAsReadBtn.addEventListener("click", () => {
    unreadHints.forEach(uh => uh.remove());
    notifications.forEach(n => n.removeAttribute("data-unread"));
    notifCount.textContent = "0";
+   markAsReadBtn.disabled = true;
 })
