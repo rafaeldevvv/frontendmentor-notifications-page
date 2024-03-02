@@ -19,7 +19,7 @@ module.exports = {
       black: "#000000"
     },
     fontFamily: {
-      sans: ["Plus Jakarta Sans", ...defaultTheme.fontFamily.sans]
+      sans: ['"Plus Jakarta Sans"', ...defaultTheme.fontFamily.sans]
     },
     container: {
       screens: {
