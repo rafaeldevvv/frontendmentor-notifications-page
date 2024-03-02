@@ -552,9 +552,9 @@ video {
   padding-left: 1rem;
 }
 
-@media (min-width: 42rem) {
+@media (min-width: 45rem) {
   .container {
-    max-width: 42rem;
+    max-width: 45rem;
   }
 }
 
@@ -737,10 +737,6 @@ video {
   line-height: 1.25rem;
 }
 
-.tracking-tighter {
-  letter-spacing: -0.05em;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -814,10 +810,6 @@ video {
   cursor: auto;
 }
 
-.disabled\:opacity-80:disabled {
-  opacity: 0.8;
-}
-
 .disabled\:opacity-60:disabled {
   opacity: 0.6;
 }
@@ -866,11 +858,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
