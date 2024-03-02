@@ -544,6 +544,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 48rem) {
+  .container {
+    max-width: 48rem;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -761,36 +775,14 @@ video {
   text-decoration-line: underline;
 }
 
-.outline {
-  outline-style: solid;
-}
-
-.outline-2 {
-  outline-width: 2px;
-}
-
-.outline-black {
-  outline-color: #000000;
-}
-
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-@media (min-width: 48rem) {
-  .container {
-    max-width: 48rem;
-  }
-}
-
 @font-face {
   font-family: "Plus Jakarta Sans";
 
   src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+.notification[data-unread] {
+  background-color: hsl(210, 60%, 98%);
 }
 
 .hover\:bg-lightGrayishBlue-2:hover {
@@ -815,53 +807,17 @@ video {
   outline-style: solid;
 }
 
-.hover\:outline-2:hover {
-  outline-width: 2px;
-}
-
 .hover\:outline-4:hover {
   outline-width: 4px;
-}
-
-.hover\:outline-veryLightGrayishBlue:hover {
-  outline-color: hsl(210, 60%, 98%);
 }
 
 .hover\:outline-lightGrayishBlue-1:hover {
   outline-color: hsl(211, 68%, 94%);
 }
 
-.hover\:outline-black:hover {
-  outline-color: #000000;
-}
-
-.hover\:brightness-50:hover {
-  --tw-brightness: brightness(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:brightness-75:hover {
-  --tw-brightness: brightness(.75);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.hover\:filter:hover {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 @media (min-width: 640px) {
   .sm\:rounded-xl {
     border-radius: 0.75rem;
-  }
-
-  .sm\:bg-lightGrayishBlue-1 {
-    --tw-bg-opacity: 1;
-    background-color: hsl(211 68% 94% / var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-lightGrayishBlue-2 {
-    --tw-bg-opacity: 1;
-    background-color: hsl(205 33% 90% / var(--tw-bg-opacity));
   }
 
   .sm\:bg-veryLightGrayishBlue {

@@ -12,6 +12,8 @@
     />
     <link rel="stylesheet" href="src/output.css" />
 
+    <script defer src="./src/index.js"></script>
+
     <title>Frontend Mentor | Notifications page</title>
   </head>
   <body
@@ -28,7 +30,7 @@
         </h1>
 
         <button
-          class="font-semibold text-darkGrayishBlue text-md hover:text-blue"
+          class="font-semibold text-darkGrayishBlue text-md hover:text-blue js-mark-as-read-btn"
         >
           Mark all as read
         </button>
@@ -36,7 +38,8 @@
 
       <ul class="space-y-4">
         <li
-          class="flex gap-x-4 bg-veryLightGrayishBlue rounded-lg p-4 author-unread-notif"
+          class="flex gap-x-4 rounded-lg p-4 notification js-notification"
+          data-unread
         >
           <div>
             <img
@@ -62,7 +65,7 @@
                 >My first tournament today!</a
               >
               <span
-                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5"
+                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5 js-unread-hint"
               >
                 <span class="sr-only">Unread</span>
               </span>
@@ -74,7 +77,10 @@
             </p>
           </div>
         </li>
-        <li class="flex gap-x-4 bg-veryLightGrayishBlue r ounded-lg p-4">
+        <li
+          class="flex gap-x-4 rounded-lg p-4 notification js-notification"
+          data-unread
+        >
           <div>
             <img
               src="./assets/images/avatar-angela-gray.webp"
@@ -93,7 +99,7 @@
               >
               followed you
               <span
-                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5"
+                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5 js-unread-hint"
               >
                 <span class="sr-only">Unread</span>
               </span>
@@ -108,7 +114,10 @@
             </p>
           </div>
         </li>
-        <li class="flex gap-x-4 bg-veryLightGrayishBlue rounded-lg p-4">
+        <li
+          class="flex gap-x-4 rounded-lg p-4 notification js-notification"
+          data-unread
+        >
           <div>
             <img
               src="assets/images/avatar-jacob-thompson.webp"
@@ -133,7 +142,7 @@
                 >Chess Club</a
               >
               <span
-                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5"
+                class="ml-1 w-2 inline-block bg-red rounded-full aspect-square relative bottom-0.5 js-unread-hint"
               >
                 <span class="sr-only">Unread</span>
               </span>
